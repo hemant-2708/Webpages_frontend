@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Andika New Basic', sans-serif;
+        }
+    </style>  
+    <title>popCulture</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand text-danger" href="#"><h1>popCulture</h1></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse text-white" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="#">Sign-in / Sign-up<span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </header>
+
+    <section>
+        <div class="container-fluid">
+            <h3 class="text-center text-black pt-5">The popCulture</h3>
+            <hr class=" w-25 mx-auto pt-5">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <img src="images/popCulture.jpg" alt="popculture" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 my-auto">
+                    <p class="text-justify">
+                        The Internet defines 'pop-culture' as to cultural products 
+                        such as film, television, that are consumed by the majority of a society's population.
+                        And this website is your one stop for all the big buzz in entertainment Industury or
+                        show bizz. Here you can join communities based on type of pop-culture you enjoy & in
+                        that community you can engage in fan-theories, write your fan-fictions, review, discover,
+                        explore & what the hell not with like-minded peoples.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid">
+            <h3 class="text-center text-black pt-5">Communities</h3>
+            <hr class=" w-25 mx-auto pt-5">
+            <div class="row mb-5">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="images/Anime.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Animes</h4>
+                          <p class="card-text">They are Thrilling, mysterious, & emotions so gut-wrentching you won't know what hit you.</p>
+                          <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="images/Movies.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Movies</h4>
+                          <p class="card-text">From Nolan's brainstroming masterpieces to Fincher's murder mystery thrillers, we got you all covered-up.</p>
+                          <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="card" style="width:400px">
+                        <img class="card-img-top" src="images/Shows.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                          <h4 class="card-title">Shows/Series</h4>
+                          <p class="card-text">
+                            They are episodic, & story-telling that ways makes the story consumer to want more & more.
+                          </p>
+                          <a href="#" class="btn btn-primary">Explore</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary">
+        <article class="py-5 text-center">
+            <div>
+                <h3 class="text-capitalize text-white">Got any Queries ?</h3>
+                <button class="btn btn-warning text-white mt-4" data-toggle="modal" data-target="#myModal">Contact Us</button>
+            </div>
+        </article>
+        <!-- The Modal -->
+        <div class="modal fade" id="myModal">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+            
+                <!-- Modal Header -->
+                <div class="modal-header">
+                <h4 class="modal-title">Write To Us</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                          <label for="name">Name:</label>
+                          <input type="text" class="form-control" id="name" name="name">
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email:</label>
+                          <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="txtarea">Message</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                        <div class="form-group form-check">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Send me a Copy
+                          </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+                
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+                
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="bg-dark text-white text-center mt-5">@copyright Hemant Rathod</p>
+    </footer>
+</body>
+</html>
